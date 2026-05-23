@@ -10,6 +10,11 @@ JIKKO AI Camera SDK입니다. 카메라 시리얼 프로토콜을 파싱하는 `
 npm install @jikko/ai-camera
 ```
 
+## 문서
+
+- [사용 방법](https://github.com/JIKKO-dev/JIKKO_AI_CAMERA_SDK/blob/main/docs/GETTING_STARTED.md)
+- [사내 활용 가이드](https://github.com/JIKKO-dev/JIKKO_AI_CAMERA_SDK/blob/main/docs/INTERNAL_ADOPTION_GUIDE.md)
+
 ## WebSerial 사용
 
 ```js
