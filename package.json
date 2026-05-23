@@ -1,0 +1,48 @@
+{
+  "name": "@jikko/ai-camera",
+  "version": "0.1.0",
+  "description": "JIKKO AI Camera protocol parser and WebSerial adapter.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    },
+    "./core": {
+      "types": "./src/core/index.d.ts",
+      "import": "./src/core/index.js"
+    },
+    "./web": {
+      "types": "./src/web/index.d.ts",
+      "import": "./src/web/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makeitall-dev/JIKKO_AI_CAMERA_SDK.git"
+  },
+  "keywords": [
+    "jikko",
+    "ai-camera",
+    "webserial",
+    "serial"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makeitall-dev/JIKKO_AI_CAMERA_SDK/issues"
+  },
+  "homepage": "https://github.com/makeitall-dev/JIKKO_AI_CAMERA_SDK#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
