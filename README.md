@@ -14,6 +14,7 @@ npm install @jikko/ai-camera
 
 - [사용 방법](https://github.com/JIKKO-dev/JIKKO_AI_CAMERA_SDK/blob/main/docs/GETTING_STARTED.md)
 - [사내 활용 가이드](https://github.com/JIKKO-dev/JIKKO_AI_CAMERA_SDK/blob/main/docs/INTERNAL_ADOPTION_GUIDE.md)
+- [npm 배포 기록 및 운영 가이드](https://github.com/JIKKO-dev/JIKKO_AI_CAMERA_SDK/blob/main/docs/NPM_PUBLISHING_GUIDE.md)
 
 ## 예제
 
