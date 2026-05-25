@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JIKKO AI Camera Web Serial Example</title>
+  </head>
+  <body>
+    <main class="app">
+      <section class="hero">
+        <p class="eyebrow">JIKKO AI Camera SDK</p>
+        <h1>Web Serial Basic Example</h1>
+        <p class="summary">
+          카메라를 연결하고 classification, detection, packet, raw byte 이벤트를 확인하는 최소 예제입니다.
+        </p>
+      </section>
+
+      <section class="toolbar" aria-label="Camera controls">
+        <button id="connectButton" type="button">카메라 연결</button>
+        <button id="disconnectButton" type="button" disabled>연결 해제</button>
+        <label class="baud">
+          Baud rate
+          <input id="baudRateInput" type="number" min="1200" step="1" value="9600" />
+        </label>
+        <label class="raw-toggle">
+          <input id="rawToggle" type="checkbox" checked />
+          Raw byte 표시
+        </label>
+      </section>
+
+      <section class="status-grid">
+        <article>
+          <span>상태</span>
+          <strong id="statusValue">idle</strong>
+        </article>
+        <article>
+          <span>마지막 classId</span>
+          <strong id="classIdValue">-</strong>
+        </article>
+        <article>
+          <span>마지막 score</span>
+          <strong id="scoreValue">-</strong>
+        </article>
+        <article>
+          <span>마지막 command</span>
+          <strong id="commandValue">-</strong>
+        </article>
+      </section>
+
+      <section class="panels">
+        <article class="panel">
+          <header>
+            <h2>Classification</h2>
+            <button id="clearClassificationButton" type="button">Clear</button>
+          </header>
+          <ol id="classificationList" class="log-list"></ol>
+        </article>
+
+        <article class="panel">
+          <header>
+            <h2>Detection</h2>
+            <button id="clearDetectionButton" type="button">Clear</button>
+          </header>
+          <ol id="detectionList" class="log-list"></ol>
+        </article>
+
+        <article class="panel">
+          <header>
+            <h2>Packet / Raw</h2>
+            <button id="clearPacketButton" type="button">Clear</button>
+          </header>
+          <ol id="packetList" class="log-list"></ol>
+        </article>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

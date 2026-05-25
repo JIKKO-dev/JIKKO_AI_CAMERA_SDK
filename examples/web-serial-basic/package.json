@@ -1,0 +1,17 @@
+{
+  "name": "jikko-ai-camera-web-serial-basic-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@jikko/ai-camera": "file:../.."
+  },
+  "devDependencies": {
+    "vite": "^6.4.2"
+  }
+}

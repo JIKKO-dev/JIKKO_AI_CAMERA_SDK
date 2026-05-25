@@ -15,6 +15,10 @@ npm install @jikko/ai-camera
 - [사용 방법](https://github.com/JIKKO-dev/JIKKO_AI_CAMERA_SDK/blob/main/docs/GETTING_STARTED.md)
 - [사내 활용 가이드](https://github.com/JIKKO-dev/JIKKO_AI_CAMERA_SDK/blob/main/docs/INTERNAL_ADOPTION_GUIDE.md)
 
+## 예제
+
+- [Web Serial Basic Example](https://github.com/JIKKO-dev/JIKKO_AI_CAMERA_SDK/tree/main/examples/web-serial-basic)
+
 ## WebSerial 사용
 
 ```js
